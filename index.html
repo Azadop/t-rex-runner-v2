@@ -45,7 +45,12 @@
         </div>
     </div>
 </body>
-
+<button onclick="gop()" id="gop">Get Scrore</button>
+	<script>
+		function gop() {
+			document.getElementById("gop").innerHTML = this.getActualDistance(distance);
+		}
+    </script>
 <script>
     document.onkeydown = function(evt) {
     evt = evt || window.event;
