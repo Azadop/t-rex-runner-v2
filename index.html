@@ -44,6 +44,12 @@
             </template>
         </div>
     </div>
+    <button onclick="gop()" id="gop">Get Scrore</button>
+	<script>
+		function gop() {
+			document.getElementById("gop").innerHTML = this.getActualDistance(distance);
+		}
+    </script>
 </body>
 
 <script>
